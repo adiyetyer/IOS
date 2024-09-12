@@ -1,0 +1,32 @@
+var firstName: String = "Adiyet"
+var lastName: String = "Yerlanuly"
+var age: Int = 19
+let birthYear: Int = 2004
+let currentYear: Int = 2024
+var isStudent: Bool = true
+var height: Double = 1.78
+
+age = currentYear - birthYear
+
+
+var hobby: String = "Boxing"
+var numberOfHobbies: Int = 3
+var favoriteNumber: Int = 7
+var isHobbyCreative: Bool = true
+
+
+var favoriteFood: String = "Sushi"
+var favoriteColor: String = "Blue"
+var dreamJob: String = "Boxer"
+
+var lifeStory: String = """
+My name is \(firstName) \(lastName). I am \(age) years old, born in \(birthYear).
+I am currently a student. My height is \(height) meters.
+I enjoy \(hobby), which is a creative hobby. I have \(numberOfHobbies) hobbies in total, and my favorite number is \(favoriteNumber).
+My favorite food is \(favoriteFood), and my favorite color is \(favoriteColor). My dream job is to become a \(dreamJob).
+"""
+
+var futureGoals: String = "In the future, I want to become a top-level Boxer and become an Olympic champion."
+lifeStory += " \(futureGoals)"
+
+print(lifeStory)
