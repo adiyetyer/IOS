@@ -11,4 +11,4 @@ func isPalindrome(_ text: String) -> Bool {
 
 // Test the function
 let testString = "A man, a plan, a canal, Panama"
-print(isPalindrome(testString))  // Output: true, because it is a palindrome
+print(isPalindrome(testString))  
