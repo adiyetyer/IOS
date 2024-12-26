@@ -11,6 +11,8 @@ Main Screens and their Functions:
 
 Navigation Bar as MainTabView in system:
 - Includes 3 main navigation buttons(Home, Price calculator, Profile)
+
+  
 Home Page:
  - "Send Cargo" button: Initiates the process of calculating the cost and placing an order.
  - Order History: Displays a list of all previous orders with details.
@@ -31,6 +33,3 @@ Order Placement Steps: After pressing Send cargo you will go to
 User Profile:
  - Displays the user's personal information.
  - Allows editing of profile information.
-Navigation View as MainTabView in system:
-- Includes 3 main navigation buttons(Home, Price calculator, Profile)
-
